@@ -43,31 +43,5 @@ let students =
         
         console.log( `Well done ${topStudent.name} you've earned ${topStudent.score} points`)
 
-        module.export = topStudent
-      
-
-
-
-
-    //      topStudent = {name:"Ivan",score:35,date:"2022-10-11"}
-    //      console.log(topStudent)
-
-
-
-
-
-    //              if(maxScore=Math.max(maxScore, student.score)
-    //                 // console.log([Math.max(...newArray)])
-                    
-                
-                 
+        module.exports = studentList
         
-  
-    //         maxScore=Math.max (...players.scorePoints)
-    //          maxScore= Math.max(maxScore, student.score) 
-       
-
-    // }
-
-    //  console.log(`Congradulations studen ${studentName} you has the max score of points - ${maxScore}`)
-
