@@ -15,7 +15,7 @@ describe("test if Ivan has the max score",()=>{
 
     describe ("Does Ivan have the max score",()=>{
     test('if student Ivan has score 35',()=> {
-        expect(studentList.score).toEqual(topStudent.score)
+        expect(studentList[0].score).toEqual(topStudent.score)
         // test('if topstudent has the score 35',()=> {
         //     expect(studentList.score).toEqual(topStudent.score("35"))
         // })
